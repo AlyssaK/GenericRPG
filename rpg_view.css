@@ -1,0 +1,76 @@
+@charset "utf-8";
+#title {
+	width: 100%;
+}
+#title h2 {
+	font-size: 28px;
+	font-style: italic;
+}
+#main_feed {
+	width: 100%;
+}
+#main_feed p {
+    color: #FFF;
+}
+.anchor_jump {
+	display: block;
+	float:left;
+	clear: none;
+	height: 125px;
+	width: 225px;
+	padding-top: 25px;
+	padding-bottom: 25px;	
+	padding-left: 25px;
+}
+.view_table{
+	width: 100%;
+	margin: auto;
+	margin-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	color:#FFF;
+	clear: both;
+}
+.vtbl_hdRow th{
+	font-size: 16px;	
+	font-weight: bold;
+}
+.vtbl_dataRows td{
+	font-size: 14px;
+	border: thin dashed #063;
+}
+.char_header{
+	margin-left: 25px;
+	font-size: 22px;
+	font-weight: bold;
+	clear: both;
+}
+.fighter_name {	
+	margin-bottom: 5px;
+	text-align: left;
+}
+#new_character {
+	display: block;
+	float: right;
+	clear: none;
+	width: 200px;
+	height: 100px;
+	background-color: transparent;
+	background-image: url(../Images/fight_button.png);
+	background-repeat: no-repeat;
+	border: none;	
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	font-family: CooperSTD;
+	font-size: 22px;	
+	margin-top: 20px;
+	margin-right: 100px;
+	margin-bottom: 25px;
+}
+#new_character:hover {
+	background-image: url(../Images/fight_button_hover.png);
+	background-repeat: no-repeat;
+}

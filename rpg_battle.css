@@ -1,0 +1,120 @@
+@charset "utf-8";
+#title {
+	width: 100%;
+}
+#title h2 {
+	font-size:23px;
+	font-style: italic;
+}
+#main_feed {
+	width: 100%;
+}
+.fight_button {
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+	background-color:transparent;
+	background-image: url(../Images/fight_button.png);
+	background-repeat: no-repeat;
+	border: none;	
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	font-family: CooperSTD;
+	font-size: 22px;	
+	margin-top: 100px;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+.fight_button:hover {
+	background-image: url(../Images/fight_button_hover.png);
+	background-repeat: no-repeat;
+}
+#battle_graphic{
+	display: block;
+	margin-left: 275px;
+	clear: both;
+}
+#user_view {
+	display: block;
+	float: left;
+	margin-top: 10px;
+}
+#user_view ul{
+	list-style-image:url(Images/sword_listimage.png);
+	list-style-type: none;
+	display: inline-block;
+	height: 50px;
+	margin-top: 5px;
+}
+#user_view li{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#opp_view {
+	display: block;
+	float: right;
+	margin-bottom: 20px;
+}
+.battle_table{
+	width: 100%;
+	margin: auto;
+	margin-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	color:#FFF;
+	clear: none;
+}
+.tbl_healthrow td{
+	font-size: 14px;
+	border: thin dashed #063;
+}
+#opp_header{
+	font-size: 16px;
+	font-weight: bold;
+	float: right;
+	margin-right: 15px;
+}
+#user_header{
+	font-size: 16px;
+	font-weight: bold;
+	float: left;
+	margin-left: 15px;
+}
+.fighter_name {	
+	display: block;
+	height: 50px;
+	width: auto;
+	text-align: left;
+	vertical-align: middle;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.battle_button {
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	background-color:transparent;
+	background-image: url(../Images/battle_button_base.png);
+	background-repeat: no-repeat;
+	border: none;	
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	font-family: CooperSTD;
+	font-size: 18px;	
+}
+.battle_button:hover {
+	background-image: url(../Images/battle_button_hover.png);
+	background-repeat: no-repeat;
+}
+
+#portrait_select {
+    display: block;
+    padding-top: 25px;
+    padding-left: 15px;
+    margin: auto;   
+}
