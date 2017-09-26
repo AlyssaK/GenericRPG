@@ -1,0 +1,199 @@
+@charset "utf-8";
+#title h2 {
+	font-size:23px;
+	font-style: italic;
+}
+
+#battle_text {
+    display: block;
+    margin-top: 400px;    
+    width: 100%; 
+}
+#battle_text p{
+    width: 60%;
+    margin: auto;
+    text-align: center;    
+}
+
+#buttonWrap {
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+#compHPBar {
+    text-align: center; /* If you want to center it */
+    line-height: 20px; /* Set the line-height to the same as the height of the progress bar container, to center it vertically */
+    color: white;
+    width: 100%;
+    background-color: green;
+}
+#plyrHPBar {
+    text-align: center; /* If you want to center it */
+    line-height: 20px; /* Set the line-height to the same as the height of the progress bar container, to center it vertically */
+    color: white;
+    width: 100%;
+    background-color: green;
+}
+
+.hp_wrapper {
+    display: block;
+    height: 20px;
+    width: 600px;   
+    background-color: grey;
+    margin: auto;
+}
+
+.fight_button {
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+	background-color:transparent;
+	background-image: url(../images/fight_button.png);
+	background-repeat: no-repeat;
+	border: none;	
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	font-family: CooperSTD;
+	font-size: 22px;	
+	margin-left: 10px;
+        margin-right: 8px;
+}
+.fight_button:hover {
+	background-image: url(../images/fight_button_hover.png);
+	background-repeat: no-repeat;
+}
+#battle_graphic{
+	display: block;
+	margin-left: 125px;
+	clear: both;
+}
+#user_view {
+	display: block;
+	width: 100%;
+        float: left;
+	margin-top: 10px;
+        
+}
+#user_view ul{
+	list-style-image:url(Images/sword_listimage.png);
+	list-style-type: none;
+	display: inline-block;
+	height: 50px;
+	margin-top: 5px;
+}
+#user_view li{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#opp_view {
+	display: block;
+	width: 100%;
+        float: right;
+	margin-bottom: 20px;
+        
+}
+.battle_table{
+	width: 100%;
+	margin: auto;
+	margin-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	color:#FFF;
+	clear: none;
+}
+.tbl_healthrow td{
+	font-size: 14px;
+	border: thin dashed #063;    
+}
+#opp_header{
+	font-size: 16px;
+	font-weight: bold;
+	float: right;
+	margin-right: 15px;
+}
+#user_header{
+	font-size: 16px;
+	font-weight: bold;
+	float: left;
+	margin-left: 15px;
+}
+.fighter_name {	
+	display: block;
+	height: 50px;
+	width: auto;
+	text-align: left;
+	vertical-align: middle;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.battle_button {
+	display: inline-block;
+	width: 202px;
+	height: 52px;
+        margin-left: 8px;
+        margin-right: 8px;
+	background-color:transparent;
+	background-image: url(../images/battle_button_imp.png);
+	background-repeat: no-repeat;
+	border: none;	
+	color: #FFF;
+	text-decoration: none;
+	font-family: CooperSTD;
+	font-size: 18px;
+        text-align: center;
+        vertical-align: middle;
+}
+.battle_button:hover {
+        padding-top: 2px;
+        padding-left: 2px;
+	background-image: url(../images/battle_button_hover.png);
+	background-repeat: no-repeat;
+}
+
+#portrait_select {
+    display: block;
+    margin: auto;   
+}
+
+.selectChamp {
+    display: inline-block;    
+    width: 100px;
+    height: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 38px;
+    margin-right: 38px;
+    text-align: center;
+}
+
+.selectChamp a {
+    text-decoration: none;
+    font-family: CooperSTD;
+    font-size: 16px;    
+    color: #FFF;
+}
+
+.selectChamp a:hover {
+    text-decoration: none;
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+.selectChamp input {
+    visibility: hidden; 
+    position: absolute;
+}
+
+.selectChamp input + img{ 
+  cursor:pointer;
+  border: 2px solid transparent
+}
+.selectChamp input:hover + img{ 
+  border:2px solid #666;
+}
+.selectChamp input:checked + img{
+  border:2px solid #FFF;
+}

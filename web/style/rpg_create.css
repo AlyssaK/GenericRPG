@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+#title h2 {
+	font-size:23px;
+	font-style: italic;
+}
+table{
+	width: 75%;
+	margin: auto;
+	margin-top: 15px;
+	text-align: right;
+	color:#FFF;	
+}
+table td{
+	font-size: 16px;	
+	font-weight: bold;
+	border: thin dashed #063;
+}
+table td input{
+	display: block;
+	width: 200px;
+	margin: auto;
+}
+
+#portrait_select {    
+    display: block;
+    width: 75%;
+    margin: auto;
+}
+
+.selectIcon {
+    display: inline-block;    
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 21px;
+    margin-right: 21px;
+    text-align: center;
+}
+
+.selectIcon input {
+    visibility: hidden; 
+    position: absolute;
+}
+
+.selectIcon input + img{
+  cursor:pointer;
+  border: 2px solid transparent
+}
+.selectIcon input:hover + img{ 
+  border:2px solid #666;
+}
+.selectIcon input:checked + img{ 
+  border:2px solid #FFF;
+}

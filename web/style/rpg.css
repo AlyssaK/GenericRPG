@@ -1,0 +1,295 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: CooperSTD;
+    src: url(../fonts/CooperBlackStd.otf);
+}
+body {
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat;
+}
+#wrapper {	
+	width: 50%;
+	height: 740px;
+        margin: auto;
+        margin-left: 175px;
+	margin-top: 50px;
+	background-image:url(../images/BIMG_x1920.png);
+	background-repeat: no-repeat;
+}
+header {
+	background-image: url(../images/genericRPG_Logo_x1920.png);
+	float: left;
+	background-repeat: no-repeat;
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 300px;
+	width: 300px;
+}
+nav {
+	background-color: #58017c;
+	margin-left: 5px;
+	float: left;
+	width: 300px;
+	clear: left;
+}
+nav a {
+	padding-top: 27px;
+	width: 100%;
+	text-decoration: none;
+        border: none;
+	text-align: center;
+	font-size: 30px;
+	font-family: CooperSTD;
+	background-color: #58017c;
+        color: #CCC;
+	display: block;
+	height: 59px;
+}
+nav a:hover {
+	padding-top: 27px;
+	background-color: #320147;
+	color: #FFF;
+}
+main {
+	margin-bottom: 0px;
+	margin-left: 305px;
+	width: 100%;
+	height: 730px;
+	clear: none;
+	background-color: #58017c;
+	border: 5px solid #000;
+}
+
+footer {
+	margin: auto;
+	margin-top: 15px;
+	clear: both;
+	width: 93%;
+	height: 100px;
+	text-align: center;
+}
+footer p {
+	font-style: italic;
+	font-size: 14px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#title {
+	background-color: #320147;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+	height: 100px;
+	display: block;
+}
+
+#title h2 {
+	padding-top: 35px;
+	text-align: center;
+	color:#FFF;
+	font-size: 28px;
+	font-family: CooperSTD;
+	margin-top: 0px;
+}
+#main_feed {
+	background: #000;
+	margin-top: 0px;
+	width: 100%;
+	height: 630px;
+	overflow-y: scroll;
+        overflow-x: scroll;
+	display: block;
+	color: #CCC;
+	font-family:"Courier New", Courier, monospace;
+}
+
+#login {	
+	float: right;
+        display: block;
+        width: 337px;
+        height: 735px;
+        margin-top: 2px;
+        margin-right: 121px;
+	background-image: url(../images/login_box_new.png);
+	background-repeat: no-repeat;
+}
+#login p {
+        display: block;
+	width: 339px;
+	text-decoration: none;
+	text-align: center;	
+	padding-top: 7px;
+        padding-left: 10px;
+	font-family: CooperSTD;
+	color: #000;
+	font-size: 18px;
+}
+#login form {
+	padding-left: 29px;
+	padding-top: 150px;
+	color: #000;
+	text-decoration: none;
+}
+#login form h3 {
+	text-align: center;
+	font-family: CooperSTD;
+	font-size: 29px;
+}
+#login a {
+	display: block;
+	width: 339px;
+        padding-left: 10px;
+	text-decoration: none;
+	text-align: center;	
+	padding-top: 7px;
+	font-family: CooperSTD;
+	color: #600;
+	font-size: 18px;
+}
+#login a:hover{
+	font-size: 20px;
+}
+.login_lbl{
+	font-family: CooperSTD;
+	padding-left: 20px;
+}
+#login_button {
+	background-color:transparent;
+	background-image: url(../images/button_login.png);
+	background-repeat: no-repeat;
+        margin-left: 100px;
+	border: none;	
+	color: #FFF;
+	font-family: CooperSTD;
+	font-size: 20px;
+	display: block;
+	width: 100px;
+	height: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#login_button:hover {
+	background-image: url(../images/button_login_hover.png);
+	background-repeat: no-repeat;
+        text-align: left;
+        text-indent: 7px;
+        display: block;                
+        width: 125%;
+	height: 125%;        
+}
+
+.form_button {
+	display: block;
+	margin: auto;
+	clear: none;
+	width: 202px;
+	height: 52px;
+	margin-top: 35px;
+        background-color: transparent;
+	background-image: url(../images/battle_button_base.png);
+	background-repeat: no-repeat;
+	border: none;	
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;       
+	font-family: CooperSTD;
+	font-size: 22px;
+        padding-top: 5px;
+}
+.form_button:hover {
+	background-image: url(../images/battle_button_hover.png);
+	background-repeat: no-repeat;
+        margin-top: 37px;
+        padding-top: 7px;
+}
+
+#submit_button {
+	background-color:transparent;
+	background-image: url(../images/button_login.png);
+	background-repeat: no-repeat;
+	border: none;	
+	color: #FFF;
+	text-align: center;
+	font-family: CooperSTD;
+	font-size: 20px;
+	display: block;
+	width: 100px;
+	height: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 15px;
+	margin-left: 500px;
+}
+
+#submit_button:hover {
+	background-image: url(../images/button_login_hover.png);
+	background-repeat: no-repeat;
+}
+
+.customInput {
+    border: 1px solid #444;
+    width: 98%;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #000;    
+    color: #FFF;    
+}
+
+
+#messageBlock p {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1280px) {    
+    #wrapper {
+        width: 85%;
+        background-image:url(../images/BIMG_x1280.png);
+        background-repeat: no-repeat;
+    }
+    header {
+	background-image: url(../images/genericRPG_Logo.png);
+	background-repeat: no-repeat;
+	height: 250px;
+	width: 250px;
+    }
+    main {
+            width: 80%;
+    }
+    footer {
+            width: 85%;
+    }
+    #title {
+            width: 63%;
+    }
+    #main_feed {
+            width: 63%;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    #wrapper {
+            width: 79%;
+            background-image:url(../images/BIMG_x1440.png);
+            background-repeat: no-repeat;
+    }
+    header {
+	background-image: url(../images/genericRPG_Logo.png);
+	background-repeat: no-repeat;
+	height: 250px;
+	width: 250px;
+    }
+    main {
+            width: 76%;
+    }
+    footer {
+            width: 79%;
+    }
+    #title {
+            width: 60%;
+    }
+    #main_feed {
+            width: 60%;
+    }
+}

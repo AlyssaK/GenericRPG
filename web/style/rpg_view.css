@@ -1,0 +1,126 @@
+@charset "utf-8";
+#title h2 {
+	font-size: 28px;
+	font-style: italic;
+}
+.anchor_jump {
+	display: block;
+	float:left;
+	clear: none;
+	height: 125px;
+	width: 225px;
+	padding-top: 25px;
+	padding-bottom: 25px;	
+	padding-left: 25px;
+}
+.view_table{
+	width: 100%;
+	margin: auto;
+	margin-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	color:#FFF;
+	clear: both;
+}
+.vtbl_hdRow th{
+	font-size: 16px;	
+	font-weight: bold;
+}
+.vtbl_dataRows td{
+	font-size: 14px;
+	border: thin dashed #063;
+}
+.char_header{
+	margin-left: 25px;
+	font-size: 22px;
+	font-weight: bold;
+	float: left;
+}
+.fighter_name {	
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+#postBox {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+#postBox h3 {
+    text-align: center;    
+}
+#postBox textarea {
+    width: 95%;
+    margin-left: 25px;
+    height: 250px;
+}
+
+#newChar {
+    margin: auto;
+    width: 500px;
+    height: 129px;
+    margin-top: 10px;
+    background-color: transparent;
+    background-image: url(../images/newChamp_button_base.png);
+    background-repeat: no-repeat;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;       
+    font-family: CooperSTD;
+    font-size: 52px;
+
+}
+#newChar:hover {
+    background-image: url(../images/newChamp_button_hover.png);
+    background-repeat: no-repeat;
+    height: 125px;
+    margin-top: 15px;
+}
+
+
+#updateChampion {
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+    
+}
+
+input {
+    border: 1px solid #444;
+    width: 98%;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #000;    
+    color: #FFF;    
+}
+
+.select-style {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #444;
+    width: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #000;
+    color: #FFF;
+
+    background: #000 url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif") no-repeat 90% 50%;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}

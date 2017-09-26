@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+.news_update {
+        width: 100%;
+	border-top-width: thin;
+	border-bottom-width: thin;
+	border-top-style: dashed;
+	border-bottom-style: dashed;
+	border-top-color: #063;
+	border-bottom-color: #063;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.update_highlight{
+	font-weight: bold;
+	font-size: 18px;
+}
+.news_update h2 {
+	text-align: center;
+	font-size: 24px;
+	color:#FFF;
+	font-weight:bold;
+}
+
+.news_update p {
+	text-align:justify;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 16px;	
+}
+
+.news_update ul {
+	display: block;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 16px;
+	list-style-position: outside;
+	list-style-image:url(../images/sword_listimage.png);
+	margin-left: 10px;
+}
+.anchor_jump {
+	display: block;
+	float:left;
+	clear: none;
+	height: 125px;
+	width: 225px;
+	padding-top: 25px;
+	padding-bottom: 25px;	
+	padding-left: 25px;
+}
+#image_list{
+	font-size: 18px;
+	font-weight: bold;
+	list-style-image: none;
+	list-style-type: none;
+	margin-left: 20px;
+}
+.news_update iframe {
+	margin-left: 65px;
+}
+ol {
+	list-style-type: upper-roman;
+}
+@media only screen and (max-width: 1280px) {
+    #login {
+            margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 1420px) {
+    #login {
+            margin-right: 20px;
+    }
+}
