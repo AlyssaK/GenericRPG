@@ -1,0 +1,37 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <!-- Configuration for the default package. -->
+    <package name="default" extends="struts-default">
+         <action name="AccountLogin" class="actions.AccountLoginAction">
+            <result name="success">/homeAccount.jsp</result>
+            <result name="input">/homeAccount.jsp</result>
+        </action>
+        <action name="AccountCreate" class="actions.AccountCreateAction">
+            <result name="success">/homeAccount.jsp</result>
+            <result name="input">/createAccount.jsp</result>
+        </action>   
+        <action name="ChampionCreate" class="actions.ChampionCreateAction">
+            <result name="success">/homeAccount.jsp</result>
+            <result name="input">/createChampion.jsp</result>
+        </action>
+        <action name="PostCreate" class="actions.PostCreateAction">
+            <result name="success">/homeAccount.jsp</result>
+            <result name="input">/viewAccount.jsp</result>
+        </action>
+        <action name="AccountUpdate" class="actions.AccountUpdateAction">
+            <result name="success">/viewAccount.jsp</result>
+            <result name="input">/viewAccount.jsp</result>
+        </action> 
+        <action name="InitBattle" class="actions.InitBattleAction">
+            <result name="success">/activeBattleScreen.jsp</result>
+            <result name="input">/selectBattleScreen.jsp</result>
+        </action>
+        <action name="TurnBattle" class="actions.TurnBattleAction">
+            <result name="success">/postBattleScreen.jsp</result>
+            <result name="input">/activeBattleScreen.jsp</result>
+        </action>        
+    </package>
+</struts>
